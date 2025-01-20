@@ -4,24 +4,24 @@ package v1
 import (
 	"time"
 
-	"github.com/thegeekywanderer/fluxy/models"
+	"github.com/hara1999/fluxy/models"
 )
 
 // RepoInterface defines an interface for repository of v1API
-type RepoInterface interface{
-  RegisterClient(models.Client) (models.Client, error)
-  GetClient(name string) (models.Client, error)
-  UpdateClient(models.Client) (error)
-  DeleteClient(name string) (error)
+type RepoInterface interface {
+	RegisterClient(models.Client) (models.Client, error)
+	GetClient(name string) (models.Client, error)
+	UpdateClient(models.Client) error
+	DeleteClient(name string) error
 }
 
 // UseCaseInterface defines the logic interface of v1API
-type UseCaseInterface interface{
-  RegisterClient(models.Client) (models.Client, error)
-  GetClient(name string) (models.Client, error)
-  UpdateClient(models.Client) (error)
-  DeleteClient(name string) (error)
-  VerifyLimit(name string) (*Result, error)
+type UseCaseInterface interface {
+	RegisterClient(models.Client) (models.Client, error)
+	GetClient(name string) (models.Client, error)
+	UpdateClient(models.Client) error
+	DeleteClient(name string) error
+	VerifyLimit(name string) (*Result, error)
 }
 
 // State defines the rate limiter state

@@ -4,8 +4,8 @@ package config
 import (
 	"fmt"
 
+	"github.com/hara1999/fluxy/logger"
 	"github.com/spf13/viper"
-	"github.com/thegeekywanderer/fluxy/logger"
 )
 
 // Configuration for fluxy

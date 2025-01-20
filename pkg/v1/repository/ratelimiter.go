@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/go-redis/redis"
-	"github.com/thegeekywanderer/fluxy/models"
-	interfaces "github.com/thegeekywanderer/fluxy/pkg/v1"
+	"github.com/hara1999/fluxy/models"
+	interfaces "github.com/hara1999/fluxy/pkg/v1"
 	"gorm.io/gorm"
 )
 

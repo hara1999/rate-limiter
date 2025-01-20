@@ -4,8 +4,8 @@ package database
 import (
 	"time"
 
+	"github.com/hara1999/fluxy/logger"
 	"github.com/spf13/viper"
-	"github.com/thegeekywanderer/fluxy/logger"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	gormLog "gorm.io/gorm/logger"

@@ -1,6 +1,6 @@
 package database
 
-import "github.com/thegeekywanderer/fluxy/models"
+import "github.com/hara1999/fluxy/models"
 
 // Migrate handles migrations
 func Migrate(db *DB) {

@@ -1,4 +1,4 @@
-module github.com/thegeekywanderer/fluxy
+module github.com/hara1999/fluxy
 
 go 1.20
 

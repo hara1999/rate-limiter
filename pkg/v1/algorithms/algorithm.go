@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	interfaces "github.com/thegeekywanderer/fluxy/pkg/v1"
+	interfaces "github.com/hara1999/fluxy/pkg/v1"
 )
 
 // New function instantiates a new usecase
